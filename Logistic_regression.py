@@ -1,38 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Apr  8 10:51:49 2020
-
-@author: mayao
-"""
-# import sklearn
-# from sklearn.datasets import load_breast_cancer
-
-# data=load_breast_cancer()
-
-# label_names=data['target_names']
-# # malignant, benign
-# labels=data['target']       
-# # all labeled results with 0 means malignant, 1 means benign (569 cases)
-# feature_names=data['feature_names']
-# # features to research (30 features)
-# features=data['data']
-# # all data available
-
-# from sklearn.model_selection import train_test_split
-
-# train, test, train_labels, test_labels = train_test_split(features, labels, test_size=0.40, random_state=42)
-
-# from sklearn.naive_bayes import GaussianNB
-# gnb=GaussianNB()
-# model=gnb.fit(train,train_labels)
-# preds=model.predict(test)
-
-# from sklearn.metrics import accuracy_score
-# print(accuracy_score(preds,test_labels))
-
-# from sklearn.metrics import confusion_matrix
-# print(confusion_matrix(test_labels,preds))
-
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import datasets
